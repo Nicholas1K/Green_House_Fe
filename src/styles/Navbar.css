@@ -1,0 +1,13 @@
+#navbar{
+    height: 80px;
+    box-shadow: 2px 2px 5px #444, -2px 2px 5px #444;
+    background: rgb(188, 190, 188);
+    background: linear-gradient(90deg, rgba(188, 190, 188, 1) 0%, rgba(156, 156, 156, 1) 56%, rgba(119, 175, 127, 1) 77%, rgba(70, 201, 88, 1) 90%, rgba(9, 125, 35, 1) 100%);
+    opacity: 0.9;
+}
+.testo{
+    color: black;
+}
+.testo:hover{
+    color: lightgreen;
+}

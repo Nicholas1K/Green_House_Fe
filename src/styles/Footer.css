@@ -1,0 +1,14 @@
+#footer{
+    height: 300px;
+    color:white;
+    
+}
+.stile{
+    color: white;
+}
+.stile:hover{
+    color: lightgreen;
+}
+h5{
+    font-size: smaller;
+}

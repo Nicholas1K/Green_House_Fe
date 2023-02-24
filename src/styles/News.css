@@ -1,0 +1,12 @@
+
+#newscont{
+    background-image: url("immagini green house/form4.png");
+        background-color: white;
+        align-items: center;
+        text-align: center;
+        width: 1000px;
+        border-radius: 10px;
+        margin-top: 20px;
+        opacity: 0.9;
+        background-size: cover;
+}
