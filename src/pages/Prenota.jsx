@@ -161,7 +161,7 @@ const Prenota = () => {
             <input
               type="email"
               className="form-control"
-              iname="email"
+              name="email"
               value={email}
               onChange={verificaEmail}
               ref={emailRef}
