@@ -99,6 +99,9 @@ const News = () => {
     });
     return "/";
   }
+  function refresh(){
+    window.location.reload();
+  }
 
   return (
     <>
@@ -163,9 +166,7 @@ const News = () => {
                 ref={etaRef}
               />
               {eta.length > 1 && !controlloEta && (
-                <span className="text-danger">
-                  devi essere maggiorenne
-                </span>
+                <span className="text-danger">devi essere maggiorenne</span>
               )}
             </div>
           </div>
@@ -174,6 +175,7 @@ const News = () => {
               type="submit"
               className="btn btn-success mb-2"
               disabled={abilitaBtn}
+              onClick={refresh}
             >
               prenota
             </button>

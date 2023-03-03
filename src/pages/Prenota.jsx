@@ -109,7 +109,9 @@ const Prenota = () => {
       return "/"
     
   }
-  
+  function refresh() {
+    window.location.reload();
+  }
 
   return (
     <>
@@ -209,6 +211,7 @@ const Prenota = () => {
               type="submit"
               className="btn btn-success mb-2"
               disabled={abilitaBtn}
+              onClick={refresh}
             >
               prenota
             </button>
